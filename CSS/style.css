@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section one */
+
+.sectionone {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: url('../IMAGES/Frame\ 12.svg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position-y: top;
+}
+
+.sectionone .whitebox {
+    position: relative;
+    left: 15%;
+    display: flex;
+    gap: 70%;
+    width: 70%; 
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.sectionone .whitebox .mainlogo {
+    position: relative;
+    left: 3%;
+    width: 100%;
+    height: 110px;
+
+}
+
+.sectionone .whitebox p {
+    position: relative;
+    left: -10%;
+    top: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    width: 200%;
+    height: 50px;
+}
+
+.sidecontent {
+    display: block;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.sidecontent h2 {
+    width: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.sidecontent p {
+    width: 40%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.sidecontent a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+.sidecontent .started {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 30px;
+    height: 100px;
+    background: #F97316;
+    border-radius: 20px;
+}
+
+/* Fikayo */
+
+
+
+/* Stella */
