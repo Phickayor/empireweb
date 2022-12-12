@@ -28,38 +28,34 @@ body {
   position: relative;
   left: 15%;
   display: flex;
-  gap: 70%;
+  gap: 60%;
   width: 70%;
-  height: 100px;
+  height: auto;
   background-color: white;
   color: black;
   border-radius: 10px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .sectionone .whitebox .mainlogo {
-  position: relative;
-  left: 3%;
   width: 100%;
-  height: 110px;
+  height: 100px;
 }
 
 .sectionone .whitebox p {
-  position: relative;
-  left: -10%;
-  top: 35px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  width: 600%;
+  width: 1000%;
   height: 50px;
+  margin-top: 35px;
 }
 
 .sidecontent {
   display: block;
   color: #ffffff;
-  margin-top: 50px;
+  margin-top: 45px;
   margin-bottom: 50px;
   margin-left: 50px;
 }
@@ -69,7 +65,7 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 45px;
   margin-bottom: 30px;
 }
 
@@ -78,7 +74,7 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 25px;
   margin-bottom: 30px;
 }
 
@@ -86,45 +82,160 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  padding-left: 90px;
+  font-size: 16px;
+  padding-left: 35px;
 }
 
 .sidecontent .started {
   display: flex;
   align-items: center;
-  width: 20%;
+  width: 160px;
   margin-bottom: 30px;
-  height: 100px;
+  height: 80px;
   background: #f97316;
   border-radius: 20px;
 }
 
 .sectiontwo {
-  display: flex;
-  flex-direction: row;
-  gap: 150px;
   width: 100%;
   height: 620px;
   background-color: white;
 }
 
+.space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
 .sectiontwo img {
-  margin-top: 40px;
-  margin-left: 50px;
-  width: 530px;
-  height: 530px;
+  padding-left: 50px;
+  width: 100%;
+  height: 400x;
 }
 
 .sectiontwo p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
-  padding-left: 90px;
-  margin-top: 80px;
-  margin-right: 50px;
+  font-size: 45px;
+  padding-left: 50px;
+  width: 600px;
 }
+
+/* Tablet view */
+
+@media screen and (max-width: 1177px) {
+  .sectionone .whitebox {
+    gap: 55%;
+    width: 70%;
+    margin-top: 50px;
+  }
+  
+  .sectionone .whitebox .mainlogo {
+    height: 70px;
+  }
+  
+  .sectionone .whitebox p {
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 25px;
+  }
+  
+  .sidecontent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  .sidecontent h2 {
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .sidecontent p {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidecontent a {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+  
+  .sidecontent .started {
+    width: 140px;
+    height: 70px;
+  }
+
+  .sectiontwo {
+    height: 400px;
+  }
+
+  .space {
+    padding-top: 80px;
+  }
+
+  .sectiontwo img {
+    height: 250px;
+  }
+  
+  .sectiontwo p {
+    font-size: 30px;
+    width: 400px;
+  }
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: none;
+  }
+
+  .sectionone .whitebox p {
+    display: none;
+  }
+  
+  .sidecontent {
+    margin-left: 17%;
+  }
+
+  .sidecontent h2 {
+    width: 80%;
+    font-size: 25px;
+  }
+  
+  .sidecontent p {
+    width: 80%;
+  }
+
+  .sectiontwo {
+    height: 600px;
+  }
+  
+  .space {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .sectiontwo img {
+    padding-left: 0%;
+  }
+  
+  .sectiontwo p {
+    font-size: 25px;
+    width: 100%;
+  }
+
+
+}
+
+
 
 /* Fikayo */
 @media screen and (max-width: 1024px) {
