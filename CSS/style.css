@@ -5,20 +5,23 @@
   box-sizing: border-box;
 }
 
-/* Section one */
-
-.sectionone {
-  /* position: absolute; */
+body{
+  position: absolute;
   left: 0px;
   top: 0px;
-  width: 100%;
-  height: auto;
   background-color: black;
   background-image: url("../IMAGES/Frame\ 12.svg");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: 100%;
   background-position-y: top;
+}
+
+/* Section one */
+
+.sectionone {
+  width: 100%;
+  height: auto;
 }
 
 .sectionone .whitebox {
@@ -98,13 +101,11 @@
 }
 
 .sectiontwo {
-  /* position: absolute; */
-  top: 722px;
-  width: 100%;
-  height: 620px;
   display: flex;
   flex-direction: row;
   gap: 150px;
+  width: 100%;
+  height: 620px;
   background-color: white;
 }
 
