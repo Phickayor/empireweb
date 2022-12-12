@@ -132,40 +132,40 @@ body {
     width: 70%;
     margin-top: 50px;
   }
-  
+
   .sectionone .whitebox .mainlogo {
     height: 70px;
   }
-  
+
   .sectionone .whitebox p {
     font-size: 15px;
     margin-right: 20px;
     margin-top: 25px;
   }
-  
+
   .sidecontent {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
   }
-  
+
   .sidecontent h2 {
     width: 50%;
     font-size: 30px;
     margin-bottom: 10px;
   }
-  
+
   .sidecontent p {
     width: 50%;
     font-size: 20px;
     margin-bottom: 20px;
   }
-  
+
   .sidecontent a {
     font-size: 14px;
     padding-left: 30px;
   }
-  
+
   .sidecontent .started {
     width: 140px;
     height: 70px;
@@ -182,7 +182,7 @@ body {
   .sectiontwo img {
     height: 250px;
   }
-  
+
   .sectiontwo p {
     font-size: 30px;
     width: 400px;
@@ -199,7 +199,7 @@ body {
   .sectionone .whitebox p {
     display: none;
   }
-  
+
   .sidecontent {
     margin-left: 17%;
   }
@@ -208,7 +208,7 @@ body {
     width: 80%;
     font-size: 25px;
   }
-  
+
   .sidecontent p {
     width: 80%;
   }
@@ -216,7 +216,7 @@ body {
   .sectiontwo {
     height: 600px;
   }
-  
+
   .space {
     display: flex;
     flex-direction: column;
@@ -226,16 +226,12 @@ body {
   .sectiontwo img {
     padding-left: 0%;
   }
-  
+
   .sectiontwo p {
     font-size: 25px;
     width: 100%;
   }
-
-
 }
-
-
 
 /* Fikayo */
 @media screen and (max-width: 1024px) {
@@ -251,6 +247,12 @@ body {
 @media screen and (max-width: 450px) {
   .dynamicText {
     font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 354px) {
+  .dynamicText {
+    font-size: 8px; /* 14px */
   }
 }
 /* Stella */
