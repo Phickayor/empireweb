@@ -200,13 +200,18 @@ body{
     display: none;
   }
   
+ .sectionone .whitebox {
+    position: relative;
+    left: 50px;
+  }
+
   .sidecontent {
     margin-left: 17%;
   }
 
   .sidecontent h2 {
     width: 80%;
-    font-size: 25px;
+    font-size: 23px;
   }
   
   .sidecontent p {
