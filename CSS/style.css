@@ -199,6 +199,11 @@ body {
   .sectionone .whitebox p {
     display: none;
   }
+  
+ .sectionone .whitebox img {
+    position: relative;
+    left: 50px;
+  }
 
   .sidecontent {
     margin-left: 17%;
@@ -206,7 +211,7 @@ body {
 
   .sidecontent h2 {
     width: 80%;
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .sidecontent p {
