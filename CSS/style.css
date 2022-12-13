@@ -196,6 +196,10 @@ body {
     background-image: none;
   }
 
+  .sectionone .whitebox {
+    position: relative;
+  }
+
   .sectionone .whitebox p {
     display: none;
   }
