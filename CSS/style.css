@@ -196,13 +196,17 @@ body {
     background-image: none;
   }
 
+  .sectionone .whitebox {
+    position: relative;
+  }
+
   .sectionone .whitebox p {
     display: none;
   }
   
  .sectionone .whitebox img {
     position: relative;
-    left: 50px;
+    left: -130px;
   }
 
   .sidecontent {
@@ -260,4 +264,6 @@ body {
     font-size: 8px; /* 14px */
   }
 }
+
+
 /* Stella */
