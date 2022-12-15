@@ -206,7 +206,7 @@ body {
   
  .sectionone .whitebox img {
     position: relative;
-    left: -130px;
+    left: -100px;
   }
 
   .sidecontent {
@@ -239,6 +239,7 @@ body {
   .sectiontwo p {
     font-size: 25px;
     width: 100%;
+    margin-bottom: 50px;
   }
 }
 
