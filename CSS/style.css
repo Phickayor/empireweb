@@ -206,7 +206,7 @@ body {
   
  .sectionone .whitebox img {
     position: relative;
-    left: -100px;
+    left: -90px;
   }
 
   .sidecontent {
@@ -215,11 +215,12 @@ body {
 
   .sidecontent h2 {
     width: 80%;
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .sidecontent p {
     width: 80%;
+    font-size: 19px;
   }
 
   .sectiontwo {
@@ -230,6 +231,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 70px;
+    padding-bottom: 50px;
   }
 
   .sectiontwo img {
@@ -239,7 +241,6 @@ body {
   .sectiontwo p {
     font-size: 25px;
     width: 100%;
-    margin-bottom: 50px;
   }
 }
 
