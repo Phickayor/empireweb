@@ -204,8 +204,8 @@ body {
   .sectionone .whitebox p {
     display: none;
   }
-  
- .sectionone .whitebox img {
+
+  .sectionone .whitebox img {
     position: relative;
     left: -90px;
   }
@@ -225,7 +225,7 @@ body {
   }
 
   .sectiontwo {
-    height: 600px;      
+    height: 600px;
   }
 
   .space {
@@ -245,33 +245,6 @@ body {
   }
 }
 
-/* Fikayo */
-@media screen and (max-width: 1024px) {
-  .dynamicText {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .dynamicText {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .dynamicText {
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 354px) {
-  .dynamicText {
-    font-size: 8px;
-    /* 14px */
-  }
-}
-
-
 /* Stella */
 
 .join-texts {
@@ -285,19 +258,18 @@ body {
 
 .join-container {
   height: 323px;
-
 }
 
 /* Join the community */
 .join-texts h1 {
   text-align: center;
   display: flex;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   justify-content: center;
 }
 
@@ -306,12 +278,12 @@ body {
   height: 34px;
   left: 455px;
   top: 128px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #ffffff;
   /* display: flex; */
 }
 
@@ -322,9 +294,9 @@ body {
   left: 510px;
   top: 198px;
   color: #ffffff;
-  background: #F97316;
+  background: #f97316;
   border-radius: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
