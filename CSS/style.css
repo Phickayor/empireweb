@@ -216,12 +216,12 @@ body {
 
   .sidecontent h2 {
     width: 80%;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .sidecontent p {
     width: 80%;
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .sectiontwo {
@@ -232,7 +232,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 70px;
-    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .sectiontwo img {
