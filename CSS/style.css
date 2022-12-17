@@ -247,16 +247,6 @@ body {
 
 /*Fikayo*/
 
-@media screen and (max-width: 700px) {
-  .globe {
-    z-index: 10;
-    position: absolute;
-    opacity: 0.6;
-  }
-  .joinDiscord {
-    z-index: 20;
-  }
-}
 /* Stella */
 
 .join-texts {
